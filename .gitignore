@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs and outputs
+logs/
+*.out
+*.err
+*.log
+
+# Checkpoints and large binaries
+*.sif
+*.pt
+*.safetensors
+checkpoint-*/
+
+# Temporary / scratch
+scratch/
+tmp/
+*.tmp
+
+# Wandb
+wandb/
+
+# Editor
+.vscode/
+.idea/
+*.swp

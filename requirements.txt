@@ -1,0 +1,45 @@
+# Core deep learning
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Distributed training
+accelerate>=0.28.0
+
+# Diffusion model components
+diffusers>=0.27.0
+
+# Flow matching ODE solver
+torchdiffeq>=0.2.3
+
+# Tensor manipulation
+einops>=0.7.0
+
+# Config management
+omegaconf>=2.3.0
+
+# Model architecture
+xformers>=0.0.23
+timm>=0.9.0
+
+# Safetensors checkpoint format
+safetensors>=0.4.0
+
+# Parameter-efficient fine-tuning (optional)
+peft>=0.8.0
+
+# Experiment tracking
+wandb>=0.16.0
+
+# Image / video I/O
+imageio>=2.33.0
+imageio-ffmpeg>=0.4.9
+moviepy>=1.0.3
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Data / science
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Progress bar
+tqdm>=4.66.0
