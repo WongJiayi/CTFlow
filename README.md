@@ -1,5 +1,11 @@
 # CTFlow
 
+**CTFlow: Video-Inspired Latent Flow Matching for 3D CT Synthesis**
+> ICCV 2025 Workshop on Vision-Language Models for 3D Understanding (VLM3D)
+
+[[Paper]](https://openaccess.thecvf.com/content/ICCV2025W/VLM3D/papers/Wang_CTFlow_Video-Inspired_Latent_Flow_Matching_for_3D_CT_Synthesis_ICCVW_2025_paper.pdf) | [[Checkpoint (HuggingFace)]](https://huggingface.co/YOUR_HF_USERNAME/CTFlow)
+
+
 Latent Video Flow Matching with Auto-Regressive Generation for 3D CT volumes.
 
 This repository implements a Spatial-Temporal DiT (STDiT) trained via flow matching to generate 3D CT volumes block-by-block in an auto-regressive manner. The model is conditioned on text/CT report embeddings.
@@ -145,3 +151,28 @@ The cluster setup uses a Singularity/Apptainer container (`tmi_container.sif`).
 **`LatentBlockDataset`** — Loads `(cond_block, target_block, embedding)` triplets for training.
 
 **`StepBasedLearningRateScheduleWithWarmup`** — Warmup + inverse square root decay scheduler.
+
+---
+
+## Pretrained Checkpoint
+
+The pretrained STDiT-L2 checkpoint is available on HuggingFace:
+
+👉 [https://huggingface.co/YOUR_HF_USERNAME/CTFlow](https://huggingface.co/YOUR_HF_USERNAME/CTFlow)
+
+Download the checkpoint and set `INFER_CKPT` in `slurms/submit_val_infer.sh` accordingly.
+
+---
+
+## Citation
+
+If you use this code or model, please cite:
+
+```bibtex
+@InProceedings{Wang_2025_ICCVW,
+    author    = {Wang, Jiayi and ...},
+    title     = {CTFlow: Video-Inspired Latent Flow Matching for 3D CT Synthesis},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    year      = {2025},
+}
+
