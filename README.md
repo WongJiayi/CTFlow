@@ -3,8 +3,7 @@
 **CTFlow: Video-Inspired Latent Flow Matching for 3D CT Synthesis**
 > ICCV 2025 Workshop on Vision-Language Models for 3D Understanding (VLM3D)
 
-[[Paper]](https://openaccess.thecvf.com/content/ICCV2025W/VLM3D/papers/Wang_CTFlow_Video-Inspired_Latent_Flow_Matching_for_3D_CT_Synthesis_ICCVW_2025_paper.pdf) | [[Checkpoint (HuggingFace)]]([https://huggingface.co/YOUR_HF_USERNAME/CTFlow](https://huggingface.co/EnyaWoooo/CTFlow/tree/main/checkpoint-680000))
-
+[[Paper]](https://openaccess.thecvf.com/content/ICCV2025W/VLM3D/papers/Wang_CTFlow_Video-Inspired_Latent_Flow_Matching_for_3D_CT_Synthesis_ICCVW_2025_paper.pdf) | [Checkpoint (HuggingFace)](https://huggingface.co/EnyaWoooo/CTFlow)
 
 Latent Video Flow Matching with Auto-Regressive Generation for 3D CT volumes.
 
@@ -166,11 +165,9 @@ The cluster setup uses a Singularity/Apptainer container (`tmi_container.sif`).
 
 The pretrained STDiT-L2 checkpoint is available on HuggingFace:
 
-👉 [[https://huggingface.co/YOUR_HF_USERNAME/CTFlow](https://huggingface.co/YOUR_HF_USERNAME/CTFlow](https://huggingface.co/EnyaWoooo/CTFlow/tree/main/checkpoint-680000))
+👉 [EnyaWoooo/CTFlow](https://huggingface.co/EnyaWoooo/CTFlow)
 
-Download the checkpoint and set `INFER_CKPT` in `slurms/submit_val_infer.sh` accordingly.
-
----
+Download `checkpoint-680000/denoiser_ema` and set `INFER_CKPT` in `slurms/submit_val_infer.sh` accordingly.
 
 ## Citation
 
