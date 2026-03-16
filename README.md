@@ -175,5 +175,3 @@ If you use this code or model, please cite:
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
     year      = {2025},
 }
-
-
