@@ -170,9 +170,10 @@ If you use this code or model, please cite:
 
 ```bibtex
 @InProceedings{Wang_2025_ICCVW,
-    author    = {Wang, Jiayi and ...},
+    author    = {Wang, Jiayi and Reynaud, Hadrien and Erick, Franciskus Xaverius and Kainz, Bernhard},
     title     = {CTFlow: Video-Inspired Latent Flow Matching for 3D CT Synthesis},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
     year      = {2025},
 }
+
 
