@@ -23,6 +23,14 @@ This repository implements a Spatial-Temporal DiT (STDiT) trained via flow match
 
 ---
 
+## Method
+
+![Pipeline](assets/pipeline.png)
+
+## Results
+
+![Main Results](assets/main_table.png)
+
 ## Repository Structure
 
 ```
