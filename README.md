@@ -1,4 +1,4 @@
-# CTFlow-clean
+# CTFlow
 
 Latent Video Flow Matching with Auto-Regressive Generation for 3D CT volumes.
 
@@ -20,7 +20,7 @@ This repository implements a Spatial-Temporal DiT (STDiT) trained via flow match
 ## Repository Structure
 
 ```
-CTFlow-clean/
+CTFlow/
 ├── echosyn/
 │   └── common/
 │       ├── __init__.py          # Shared utilities (instantiation, training helpers, etc.)
@@ -61,7 +61,7 @@ CTFlow-clean/
 ### Local (single node, 4 GPUs)
 
 ```bash
-cd CTFlow-clean
+cd CTFlow
 
 accelerate launch \
     --num_processes 4 \
